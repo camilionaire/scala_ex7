@@ -1,0 +1,20 @@
+// CS558 Prof Jingke Li
+// Camilo Schaser-Hughes
+// November 17, 2022
+
+I missed the day in class (Tuesday) when we talked about this, so
+Tierney helped me with it during study group sesh.
+
+So we apply (Lamda_xy.xyF) to TT, TF, FT, FF
+this gives us:
+
+TTF, TFF, FTF, FFF.
+
+Substituting in the first value for either T or F
+
+(Lambda_xy.x)TF = T
+(Lambda_xy.x)FF = F
+(Lambda_xy.y)TF = F
+(Lambda_xy.y)FF = F
+
+which checks out... as does this same method on the OR function.
